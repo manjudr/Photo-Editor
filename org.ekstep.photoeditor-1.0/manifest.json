@@ -1,0 +1,24 @@
+{
+    "id": "org.ekstep.photoeditor",
+    "ver": "1.0",
+    "shortId": "org.eskstep.photoeditor",
+    "author": "Manjunath Davanam",
+    "description": "",
+    "publishedDate": "",
+    "renderer": {
+        "main": "renderer/plugin.js",
+        "dependencies": [
+            {"type": "css", "src": "renderer/libs/bootstrap.min.css"},
+            {"type": "css", "src": "renderer/libs/bootstrap-slider.min.css"},
+            {"type": "css", "src": "renderer/css/style.css"},
+            {"type": "js", "src": "renderer/libs/popper.min.js"},
+            {"type": "js", "src": "renderer/libs/bootstrap.min.js"},
+            {"type": "js", "src": "renderer/libs/bootstrap-slider.min.js"},
+            {"type": "js", "src": "renderer/libs/caman.full.min.js"}
+          ]
+    },
+    "dependencies": [
+        {"plugin": "org.ekstep.genie", "ver": "1.0", "scope": "renderer" }
+    ]   
+
+}
